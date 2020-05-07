@@ -21,7 +21,7 @@ export default class Navbar extends Component {
       {
         id: 3,
         text: "Services",
-        url: "/services",
+        url: "/service",
       },
       {
         id: 4,
