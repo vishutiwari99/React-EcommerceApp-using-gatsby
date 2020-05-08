@@ -10,12 +10,6 @@ import Dualinfoblock from "../components/Reuseable/Dualinfoblock"
 const ServicePage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <HeroSection
-      img={data.img.childImageSharp.fluid}
-      title="I write Code"
-      subtitle="LearnCodeOnline.in"
-      heroclass="hero-background"
-    />
     <Infoblock heading="Services" />
     <Dualinfoblock
       heading="Our Services"
