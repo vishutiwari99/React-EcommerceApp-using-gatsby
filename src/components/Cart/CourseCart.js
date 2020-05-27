@@ -19,7 +19,10 @@ class CourseCart extends Component {
           <div className="row">
             {this.state.mycourses.map(({ node }) => {
               return (
-                <div key={node.id} className="col-11 col-md-6 d-flex my-3 mx-auto">
+                <div
+                  key={node.id}
+                  className="col-11 col-md-6 d-flex my-3 mx-auto"
+                >
                   <Img fixed={node.image.fixed} />
                   <div className="flex-grow-1 px-3">
                     <div className="d-flex justify-content-between">
@@ -32,7 +35,7 @@ class CourseCart extends Component {
                     <button
                       data-item-id={node.id}
                       data-item-price={node.price}
-                      data-item-url="https://learncodeonline.in"
+                      data-item-url="https://quickcart.netlify.app/"
                       data-item-image={node.image.fixed}
                       data-item-name={node.title}
                       className="btn btn-warning snipcart-add-item"
